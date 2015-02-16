@@ -18,11 +18,16 @@
 	}
 
 	.decoration {
-		font-size: 100%;
-		vertical-align: baseline;
+		font-size: 57.2289156626506%;
+		vertical-align: super;
 	}
 
-	&.lineal-docoration
+	&.lineal-docoration {
+		.decoration {
+			font-size: 100%;
+			vertical-align: baseline;
+		}
+	}
 
 	&.colorize {
 		color: #ff6e6e;
