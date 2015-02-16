@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+// Load font Ubuntu
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+@import "_font";
+
+
+.logo-onay {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: lighter;
+
+	&::first-letter {
+		font-family: 'onay-icon', 'Ubuntu', sans-serif;
+		font-size: 58.060241%;
+	}
+	&.officon::first-letter {
+		font-size: 100%;
+	}
+
+	.decoration {
+		font-size: 57.2289156626506%;
+		vertical-align: super;
+	}
+
+	&.colorize {
+		color: #ff6e6e;
+		.decoration {
+			color: #666666;
+		}
+	}
+
+}

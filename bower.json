@@ -1,0 +1,23 @@
+{
+  "name": "onay-logo",
+  "version": "1.0.0",
+  "authors": [
+    "Jonathan Delgado Zamorano <jonad.correo@gmail.com>"
+  ],
+  "main": [
+    "sass/onay-logo.scss",
+    "css/onay-logo.css",
+    "onay-font/fonts/icomoon.eot",
+    "onay-font/fonts/icomoon.svg",
+    "onay-font/fonts/icomoon.ttf",
+    "onay-font/fonts/icomoon.woff"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
