@@ -14,10 +14,12 @@
   .logo-onay.officon::first-letter {
     font-size: 100%; }
   .logo-onay .decoration {
-    font-size: 57.2289156626506%;
-    vertical-align: super; }
+    font-size: 100%;
+    vertical-align: baseline; }
+  .logo-onay.lineal-docoration
   .logo-onay.colorize {
     color: #ff6e6e; }
+    .logo-onay.lineal-docoration
     .logo-onay.colorize .decoration {
       color: #666666; }
 
